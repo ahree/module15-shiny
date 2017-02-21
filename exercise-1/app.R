@@ -2,7 +2,15 @@
 
 
 # Define a new `ui` variable. This variable should be assigned a `fluidPage` layout
-
+my.ui <- fluidPage(
+  # formatted content
+  h1("Cost Calculator"),
+  
+  # control widget
+  numericInput('price', label="Price (in dollars)", placeholder = "names goes here"))
+numericInput('qty', label = "Quantity", place)
+textOutput()
+)
 
   # Include a `titlePanel` layout with the text "Cost Calculator"
 
